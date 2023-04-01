@@ -1,0 +1,85 @@
+body{
+    color:rgb(2, 2, 2);
+    background-color: rgb(235, 229, 229);
+    overflow-x: hidden;
+
+}
+
+form{
+position: relative;
+border: 0px solid;
+border-radius: 15px;
+box-shadow: 10px 10px 40px white;
+background-color: white;
+top:12rem;
+left:23rem;
+width: 73%;
+height: 26rem;
+
+
+}
+.za{
+position: relative;
+top:1rem;
+left: -1rem;
+}
+input{
+position: relative;
+width: 90%;
+height: 2rem;
+border-radius: 5px;
+}
+textarea{
+position: relative;
+width: 90%;
+height:5rem;
+}
+h2{
+position: relative;
+top:10rem;
+left:23rem;
+}
+button{
+position: relative;
+border-radius: 3px;
+border: none;
+color:white;
+background-color: rgb(253, 10, 10);
+width: 5.5rem;
+height: 2rem;
+left: 61rem;
+top: 4.2rem;
+
+}
+div{
+position: relative;
+left: 4rem;
+top:4rem;
+}
+@media screen and (max-width: 350px) {
+body{
+  position: relative;
+  top: -5rem;
+  right:22rem;
+  overflow-x: hidden;
+
+}
+form{
+  position: relative;
+  width: 90%;
+  height:23rem;
+}
+
+.za{
+ position: relative;
+ top:-1.5rem;
+ left:-2.5rem;
+ width: 15rem;
+}
+button{
+position: relative;
+left:12.5rem;
+
+}
+
+}
